@@ -1,5 +1,11 @@
 # norm-config
 
+## 2.0.2
+
+### Patch Changes
+
+- 8cefddb: 测试机器人
+
 ## 2.0.1
 
 ### Patch Changes
