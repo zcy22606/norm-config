@@ -1,5 +1,11 @@
 # norm-config
 
+## 2.0.1
+
+### Patch Changes
+
+- 1d87256: 测试自动发布
+
 ## 2.0.0
 
 ### Major Changes
