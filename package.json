@@ -15,6 +15,9 @@
     "commitlint"
   ],
   "author": "zcy22606",
+  "files": [
+    "template/**"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -22,5 +25,8 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
