@@ -20,7 +20,7 @@ jobs:
     if: ${{ github.repository_owner == 'zcy22606' }}
     runs-on: ubuntu-latest
     steps:
-      # - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
       # 设置 pnpm 指定版本为7.0
       - name: Setup pnpm
         uses: pnpm/action-setup@v2.2.1
