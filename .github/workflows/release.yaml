@@ -8,7 +8,7 @@ on:
       - master
 
 # 默认shell
-default:
+defaults:
   run:
     shell: bash
 
