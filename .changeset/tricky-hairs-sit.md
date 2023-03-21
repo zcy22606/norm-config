@@ -1,5 +1,5 @@
 ---
-"norm-config": patch
+'norm-config': major
 ---
 
-patch
+A very helpful description of the changes
