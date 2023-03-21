@@ -4,3 +4,4 @@ yarn-lock.yaml
 package-lock.yaml
 .env
 .vscode
+.test
