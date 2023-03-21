@@ -1,5 +1,11 @@
 # norm-config
 
+## 1.0.4
+
+### Patch Changes
+
+- c0278e6: 测试自动合并发布
+
 ## 1.0.3
 
 ### Patch Changes
