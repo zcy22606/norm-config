@@ -1,17 +1,11 @@
 {
   "name": "norm-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "zcy22606",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jprichardson/node-fs-extra"
+    "changeset": "changeset",
+    "version": "changeset version && pnpm install"
   },
   "keywords": [
     "eslint",
@@ -20,5 +14,13 @@
     "stylelint",
     "commitlint"
   ],
-  "license": "MIT"
+  "author": "zcy22606",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jprichardson/node-fs-extra"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0"
+  }
 }
