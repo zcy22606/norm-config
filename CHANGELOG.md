@@ -1,5 +1,11 @@
 # norm-config
 
+## 2.0.0
+
+### Major Changes
+
+- 8a24bcd: A very helpful description of the changes
+
 ## 1.0.5
 
 ### Patch Changes
