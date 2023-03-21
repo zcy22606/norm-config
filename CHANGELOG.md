@@ -1,5 +1,11 @@
 # norm-config
 
+## 2.0.3
+
+### Patch Changes
+
+- c52be19: 修改机器人
+
 ## 2.0.2
 
 ### Patch Changes
