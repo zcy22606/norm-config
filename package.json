@@ -1,0 +1,24 @@
+{
+  "name": "norm-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zcy22606",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jprichardson/node-fs-extra"
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "editorConfig",
+    "stylelint",
+    "commitlint"
+  ],
+  "license": "MIT"
+}
