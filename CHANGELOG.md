@@ -1,5 +1,11 @@
 # norm-config
 
+## 1.0.5
+
+### Patch Changes
+
+- 9e16f7f: 测试自动合并
+
 ## 1.0.4
 
 ### Patch Changes
