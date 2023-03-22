@@ -1,4 +1,4 @@
-const fse = require("fs-extra");
+const fs = require("fs");
 const path = require("path");
 const { getEslintrcConfig } = require("./template/.eslintrc");
 const { getPrettierrcCfg } = require("./template/.prettierrc");
@@ -7,18 +7,18 @@ const { getCommitlintCfg } = require("./template/commitlint.config.js");
 
 
 const getEditorConfig = async () => {
-  const data = await fse.readFile(path.resolve(__dirname, ".editorConfig"));
+  const data =  fs.readFileSync(path.resolve(__dirname, ".editorConfig"));
   return data;
 };
 
 const getPrettierrcIgnore = () => {
-  const data = fse.readFileSync(path.resolve(__dirname, ".prettierrcIgnore"));
+  const data = fs.readFileSync(path.resolve(__dirname, ".prettierrcIgnore"));
   return data;
 };
 
 /** 获取readme文件 */
 const getBuidevReadme = () => {
-  const data = fse.readFileSync(path.resolve(__dirname, "buidev-readme.md"));
+  const data = fs.readFileSync(path.resolve(__dirname, "buidev-readme.md"));
   return data;
 };
 

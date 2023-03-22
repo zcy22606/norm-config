@@ -17,7 +17,8 @@
   ],
   "author": "zcy22606",
   "files": [
-    "template/**"
+    "./template/**",
+    "./index.js"
   ],
   "exports": {
     ".": {
