@@ -1,5 +1,12 @@
 # norm-config
 
+## 2.0.8
+
+### Patch Changes
+
+- 80d946a: 测试阻止
+- 3ee9ae0: 调整项目依赖
+
 ## 2.0.7
 
 ### Patch Changes
