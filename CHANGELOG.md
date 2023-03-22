@@ -1,5 +1,11 @@
 # norm-config
 
+## 2.0.6
+
+### Patch Changes
+
+- 6d41a2c: 修改配置文件
+
 ## 2.0.5
 
 ### Patch Changes
