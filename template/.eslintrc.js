@@ -21,7 +21,7 @@ const getVue3Cfg = (needRulesCfg = false) => {
       "prettier",
       "plugin:prettier/recommended"
     ],
-    plugins: ['prettier', ${process.env.IS_TS ? "@typescript-eslint" : ""} ],
+    plugins: ['prettier', ${process.env.IS_TS ? "'@typescript-eslint'" : ""} ],
     parserOptions: {
       ecmaVersion: 11,
       sourceType: 'module',
