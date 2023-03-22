@@ -1,5 +1,11 @@
 # norm-config
 
+## 2.0.8
+
+### Patch Changes
+
+- 80d946a: 测试阻止
+
 ## 2.0.7
 
 ### Patch Changes
