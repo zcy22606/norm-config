@@ -83,7 +83,7 @@ module.exports = {
         },
       },
       scope: {
-        description: '请输入修改的范围（必填）',
+        description: '请输入修改的范围（可选）',
       },
       subject: {
         description: '请简要描述提交（必填）',
