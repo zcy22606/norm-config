@@ -1,5 +1,11 @@
 # norm-config
 
+## 2.0.7
+
+### Patch Changes
+
+- e0a132b: 添加注释
+
 ## 2.0.6
 
 ### Patch Changes
