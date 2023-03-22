@@ -1,5 +1,11 @@
 # norm-config
 
+## 2.0.5
+
+### Patch Changes
+
+- 7b026f3: 测试机器人
+
 ## 2.0.4
 
 ### Patch Changes
