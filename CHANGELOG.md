@@ -1,5 +1,11 @@
 # norm-config
 
+## 2.0.10
+
+### Patch Changes
+
+- 17137b7: 更新模板
+
 ## 2.0.9
 
 ### Patch Changes
