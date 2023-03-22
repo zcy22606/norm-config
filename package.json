@@ -19,6 +19,14 @@
   "files": [
     "template/**"
   ],
+  "exports": {
+    ".": {
+      "require": "./main.js",
+      "import": "./esm.js",
+      "node": "./node.js",
+      "default": "./default.js"
+    }
+  },
   "license": "MIT",
   "repository": {
     "type": "git",

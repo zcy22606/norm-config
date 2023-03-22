@@ -1,9 +1,9 @@
 const fse = require("fs-extra");
 const path = require("path");
-const { getEslintrcConfig } = require("./.eslintrc");
-const { getPrettierrcCfg } = require("./.prettierrc");
-const { getStylelintCfg } = require("./.stylelintrc");
-const { getCommitlintCfg } = require("./commitlint.config.js");
+const { getEslintrcConfig } = require("./template/.eslintrc");
+const { getPrettierrcCfg } = require("./template/.prettierrc");
+const { getStylelintCfg } = require("./template/.stylelintrc");
+const { getCommitlintCfg } = require("./template/commitlint.config.js");
 
 const getEditorConfig = async () => {
   const data = await fse.readFile(path.resolve(__dirname, ".editorConfig"));
