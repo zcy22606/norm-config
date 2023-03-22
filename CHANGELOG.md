@@ -1,5 +1,11 @@
 # norm-config
 
+## 2.0.4
+
+### Patch Changes
+
+- 99341f2: 测试
+
 ## 2.0.3
 
 ### Patch Changes
