@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "changeset": "changeset",
-    "version": "changeset version && pnpm install",
-    "publish": "pnpm exec changeset"
+    "version": "pnpm install && changeset version",
+    "release": "pnpm exec changeset"
   },
   "keywords": [
     "eslint",
