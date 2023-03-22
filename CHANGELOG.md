@@ -1,5 +1,11 @@
 # norm-config
 
+## 2.0.9
+
+### Patch Changes
+
+- c850c6a: 修改 eslint 配置格式错误问题
+
 ## 2.0.8
 
 ### Patch Changes
