@@ -5,6 +5,7 @@ const { getPrettierrcCfg } = require("./template/.prettierrc");
 const { getStylelintCfg } = require("./template/.stylelintrc");
 const { getCommitlintCfg } = require("./template/commitlint.config.js");
 
+
 const getEditorConfig = async () => {
   const data = await fse.readFile(path.resolve(__dirname, ".editorConfig"));
   return data;
@@ -15,6 +16,7 @@ const getPrettierrcIgnore = () => {
   return data;
 };
 
+/** 获取readme文件 */
 const getBuidevReadme = () => {
   const data = fse.readFileSync(path.resolve(__dirname, "buidev-readme.md"));
   return data;
