@@ -6,6 +6,7 @@ const { getStylelintCfg } = require("./template/.stylelintrc");
 const { getCommitlintCfg } = require("./template/commitlint.config.js");
 
 
+/** 获取editorConfig */
 const getEditorConfig = async () => {
   const data =  fs.readFileSync(path.resolve(__dirname, ".editorConfig"));
   return data;
