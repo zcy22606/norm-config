@@ -1,5 +1,11 @@
 # norm-config
 
+## 2.0.11
+
+### Patch Changes
+
+- d0d835b: 更新 react 的 eslint 规则
+
 ## 2.0.10
 
 ### Patch Changes
