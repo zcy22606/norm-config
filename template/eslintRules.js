@@ -193,17 +193,13 @@ const rules = `
 
 
 const vueRules = `
-  rules:{
     ${rules}
-  }
 `
 
 
 
 const reactRules = `
-  rules:{
     ${rules}
-  }
 `
 
 const getEslintRules = (env) => {
