@@ -1,5 +1,14 @@
 # norm-config
 
+## 2.0.11
+
+### Patch Changes
+
+- d0d835b: 更新 react 的 eslint 规则
+- f488ad2: 增加.gitignore 模板
+- 937f3b4: 测试
+- f7eb77b: 测试
+
 ## 2.0.10
 
 ### Patch Changes
