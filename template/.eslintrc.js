@@ -62,7 +62,13 @@ module.exports = {
     : ""
   }
   },
-  ${needRulesCfg ? getEslintRules("react") : ""}
+  rules:{
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
+    semi: 'off', //语句强制分号结尾
+    ${needRulesCfg ? getEslintRules("react") : ``}
+  }
 }
 `;
 };
