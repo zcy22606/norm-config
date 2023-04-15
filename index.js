@@ -28,6 +28,8 @@ const getGitIgnore = () => {
   return data;
 };
 
+
+
 module.exports = {
   getEslintrcConfig,
   getPrettierrcCfg,

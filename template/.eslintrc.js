@@ -25,10 +25,11 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 11,
     sourceType: 'module',
-    ${process.env.IS_TS
-    ? " parser: '@typescript-eslint/parser' // 解析 .ts 文件"
-    : ""
-  }
+    ${
+      process.env.IS_TS
+        ? " parser: '@typescript-eslint/parser' // 解析 .ts 文件"
+        : ""
+    }
   },
   ${needRulesCfg ? getEslintRules("vue3") : ""}
 }
@@ -49,6 +50,7 @@ module.exports = {
     'eslint:recommended',
     "plugin:react/recommended",
     ${process.env.IS_TS ? "'plugin:@typescript-eslint/recommended'," : ""}
+    ${process.env.IS_NEXT ? "'eslint-config-next'," : ""}
     // 1. 接入 prettier 的规则
     "prettier",
     "plugin:prettier/recommended"
@@ -57,10 +59,11 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 11,
     sourceType: 'module',
-    ${process.env.IS_TS
-    ? " parser: '@typescript-eslint/parser' // 解析 .ts 文件"
-    : ""
-  }
+    ${
+      process.env.IS_TS
+        ? " parser: '@typescript-eslint/parser' // 解析 .ts 文件"
+        : ""
+    }
   },
   rules:{
     'react/jsx-uses-react': 'off',
@@ -94,10 +97,11 @@ const getDefaultCfg = (needRulesCfg = false) => {
     parserOptions: {
       ecmaVersion: 11,
       sourceType: 'module',
-      ${process.env.IS_TS
-      ? "parser: '@typescript-eslint/parser' // 解析 .ts 文件"
-      : ""
-    }
+      ${
+        process.env.IS_TS
+          ? "parser: '@typescript-eslint/parser' // 解析 .ts 文件"
+          : ""
+      }
     },
   }
 `;

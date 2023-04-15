@@ -1,5 +1,11 @@
 # norm-config
 
+## 2.0.12
+
+### Patch Changes
+
+- 增加对 nextjs 的支持
+
 ## 2.0.11
 
 ### Patch Changes
