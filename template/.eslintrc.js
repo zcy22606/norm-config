@@ -50,7 +50,7 @@ module.exports = {
     'eslint:recommended',
     "plugin:react/recommended",
     ${process.env.IS_TS ? "'plugin:@typescript-eslint/recommended'," : ""}
-    ${process.env.IS_NEXT ? "'eslint-config-next'," : ""}
+    ${process.env.IS_NEXT ? "'next/core-web-vitals'," : ""}
     // 1. 接入 prettier 的规则
     "prettier",
     "plugin:prettier/recommended"

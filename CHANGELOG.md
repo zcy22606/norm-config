@@ -1,5 +1,17 @@
 # norm-config
 
+## 2.0.16
+
+### Patch Changes
+
+- 修复 bug
+
+## 2.0.15
+
+### Patch Changes
+
+- 修复 bug
+
 ## 2.0.12
 
 ### Patch Changes
